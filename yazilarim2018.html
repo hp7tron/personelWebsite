@@ -1,0 +1,312 @@
+<html>
+     <meta charset="utf-8">
+<title>
+    
+2.deneme 4.sayfa
+    </title>
+      <head>
+    <style type="text/css">
+       *{
+            margin: 0;
+            padding :0;
+            box-sizing: border-box;
+            font-family: "Avenir Next";
+        }
+        
+        body{
+            background-color: #f6f6f6;
+        }
+        
+        .navbar{
+            max-width: 80vw;
+            width: 100%;
+            position: absolute;
+            left: 10vw;
+            height: 100px;
+            background-color: #f6f6f6;
+        }
+        
+        .logo{
+            position: absolute;
+            left : 10px;
+            top : 50px;
+        }
+        
+        .menu{
+            width: 50vw;
+            height: 100px;
+            position: absolute;
+            right: 0;
+            display : flex; 
+            justify-content: space-around;
+        }
+    
+        .menu li{
+            list-style: none;
+        }
+        
+        .menu >li > a {
+            color: black;
+            position: absolute;
+            top : 50px;
+            text-decoration: none;
+            display: block;
+            font-size: 14px;
+        }
+    
+        
+        .acilirmenu1 {
+            display: none;
+            position: absolute;
+            top:70px;
+            z-index: 1;
+        }
+        
+    
+        .acilirmenu2 {
+            display: none;
+            position: absolute;
+            top:70px;
+            z-index: 1;
+            
+        }
+        .acilirmenu3 {
+            display: none;
+            position: absolute;
+            top:70px;
+            z-index: 1;
+ 
+        }
+        
+        .menu li:hover .acilirmenu1 {
+            display: block;
+        }
+        
+          .menu li:hover .acilirmenu2 {
+            display: block;
+        }
+        
+          .menu li:hover .acilirmenu3 {
+            display: block;
+        }
+
+        
+        .body{
+            position: absolute;
+            left: 10vw;
+            max-width: 80vw;
+            width: 100%;
+            top : 150px;
+        }
+        
+        
+       footer
+        {
+            position: absolute;
+            bottom: -700px;
+            left:10vw;
+            width: 80vw;
+            background: #dfe6e9;
+            border-radius: 20px 20px 0 0;
+        }
+        
+        
+        
+        #footeryazi{
+            color: white;
+            
+        }
+        
+        
+        
+        #baslik{
+            padding-left: 20px;
+            
+            
+        }
+        
+        .aylar {
+            
+            padding-left: 20px;
+            
+        }
+        
+        .dropdown {
+          position: absolute;
+          top:50px;
+        }
+        
+        .dropdown span{
+            font-size: 14px;
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          padding: 12px 16px;
+          z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        
+                .listeler {
+            list-style: none;
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+            
+        }
+        
+          </style>
+    </head>
+    <body>
+    
+
+    <div class="navbar" >
+    <div class="logo"> <img src="umut.png" width="80px" height="90px"  alt="Italian Trulli" > </div>
+    <ul class="menu">
+        
+        <li>
+            <a href="index.html">Anasayfa</a>
+        </li>  
+         <li>
+        <div class="dropdown">
+              <a class="listeler" href="yazilarim2019.html"> Yazılarım </a>
+              <div class="dropdown-content">
+             <ul >
+                  <li>
+                    <a class="listeler" href="yazilarim2019.html"> 2019</a>
+                    </li>
+                 <li>
+                    <a class="listeler" href="yazilarim2018.html"> 2018</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+        </li>
+        
+        <li>
+        <div class="dropdown">
+            <a class="listeler" href="foto%C4%9Fraflar2019.html">  Fotoğraflar</a> 
+              <div class="dropdown-content">
+               <ul >
+                  <li>
+                    <a class="listeler" href="foto%C4%9Fraflar2019.html"> 2019</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+        </li>
+        
+        <li>
+        <div class="dropdown">
+              <a class="listeler" href="muzikler.html"> Önerilerim</a>
+              <div class="dropdown-content">
+                <ul >
+                  <li>
+                    <a class="listeler" href="muzikler.html"> Müzik</a>
+                    </li>
+                     <li>
+                    <a class="listeler" href="kitaplar.html"> Kitap</a>
+                    </li>
+                    
+                  </ul>
+              </div>
+            </div>
+        </li>
+         
+        <li><a href="hakkimda.html">Hakkımda</a></li>  
+        <li><a href="iletisim.html">İletişim</a></li>   
+         <li>
+            <a href="http://192.168.64.2/phpfolder/PROJE/login.php">Kayıt Ol</a>
+        </li>  
+    </ul>
+    
+        
+        
+    </div>
+       <div class="body">
+        <h2 id="baslik"> YAZILARIM 2018 </h2><br/>
+        <div class="aylar">
+        <div>  
+            
+    
+            <h3>OCAK</h3>
+            <hr style="width: 60px;">
+            <p>  Sed ac risus sem. Aliquam sed massa turpis. Sed auctor condimentum neque ut dictum. Praesent euismod, libero sit amet pretium maximus, lectus tellus pretium lorem, et tristique nunc felis at mi. Sed dapibus, erat vitae pulvinar commodo, metus odio pretium eros, et gravida erat nisl non enim. Vestibulum risus urna, condimentum a faucibus id, venenatis sed metus. Proin varius, nisl ac cursus commodo, ex nisi tempor ipsum, in mollis diam orci sit amet elit. Mauris eget mauris varius, malesuada justo id, suscipit dolor. Morbi justo dui, viverra quis mi non, pharetra maximus nisi. Integer facilisis, tellus sit amet eleifend efficitur, tellus lorem molestie dui, vel congue ex est quis orci.  </p>
+           
+            
+            </div><br/>
+        <div>
+         
+         <h3>ŞUBAT</h3>
+             <hr style="width: 60px;">
+            <p>YAZI YOK</p>   
+            
+            </div>
+            <br/> 
+        <div><h3>MART</h3> <hr style="width: 60px;">
+            
+            <p>Etiam ac faucibus ante. Duis dictum blandit aliquet. Donec ornare orci eget quam aliquam sollicitudin. Duis interdum ultrices enim, mollis posuere purus sollicitudin sit amet. Donec fermentum interdum ligula ut placerat. Sed erat justo, ultrices eget placerat rhoncus, dictum ut purus. In finibus pretium tellus, vitae eleifend ante ultrices nec.  </p>  
+            </div><br/>
+        <div><h3>NİSAN</h3> <hr style="width: 60px;">
+            
+          <p>  Etiam ac faucibus ante. Duis dictum blandit aliquet. Donec ornare orci eget quam aliquam sollicitudin. Duis interdum ultrices enim, mollis posuere purus sollicitudin sit amet. Donec fermentum interdum ligula ut placerat. Sed erat justo, ultrices eget placerat rhoncus, dictum ut purus. In finibus pretium tellus, vitae eleifend ante ultrices nec.  </p>
+          
+            
+            </div><br/>
+        <div><h3>MAYIS</h3> <hr style="width: 60px;"></div><br/>
+        <div><h3>HAZİRAN</h3> <hr style="width: 90px;"></div><br/>
+        <div><h3>TEMMUZ</h3> <hr style="width: 90px;">
+               <p>Aliquam egestas lobortis risus a porttitor. Vestibulum auctor odio eu sem malesuada, eget scelerisque urna eleifend. Phasellus id justo in nulla gravida faucibus pulvinar et augue. Donec ut neque dui. Nullam dapibus, orci et consequat pulvinar, dui est elementum tortor, id convallis est tortor id magna. Sed fermentum non purus in efficitur. Duis interdum dui eget risus posuere, vel euismod eros viverra. Nam suscipit nibh vitae nulla rutrum consequat. Proin leo turpis, tempus sed odio in, vestibulum convallis libero. Phasellus molestie vel urna id malesuada. Mauris quam sapien, ultricies sit amet mi nec, scelerisque venenatis velit. Pellentesque bibendum dictum nibh, quis sodales sem aliquet at. Nunc et posuere lacus. Suspendisse ut ullamcorper tellus.</p>  
+            </div><br/>
+        <div><h3>AĞUSTOS</h3> <hr style="width: 100px;">
+           <p>YAZI YOK</p>   
+            </div><br/>
+        <div><h3>EYLÜL</h3> <hr style="width: 60px;">
+            
+             <p>  Etiam ac faucibus ante. Duis dictum blandit aliquet. Donec ornare orci eget quam aliquam sollicitudin. Duis interdum ultrices enim, mollis posuere purus sollicitudin sit amet. Donec fermentum interdum ligula ut placerat. Sed erat justo, ultrices eget placerat rhoncus, dictum ut purus. In finibus pretium tellus, vitae eleifend ante ultrices nec.  </p>
+          
+            </div><br/>
+        <div><h3>EKİM</h3> <hr style="width: 60px;">
+              <p>Aliquam egestas lobortis risus a porttitor. Vestibulum auctor odio eu sem malesuada, eget scelerisque urna eleifend. Phasellus id justo in nulla gravida faucibus pulvinar et augue. Donec ut neque dui. Nullam dapibus, orci et consequat pulvinar, dui est elementum tortor, id convallis est tortor id magna. Sed fermentum non purus in efficitur. Duis interdum dui eget risus posuere, vel euismod eros viverra. Nam suscipit nibh vitae nulla rutrum consequat. Proin leo turpis, tempus sed odio in, vestibulum convallis libero. Phasellus molestie vel urna id malesuada. Mauris quam sapien, ultricies sit amet mi nec, scelerisque venenatis velit. Pellentesque bibendum dictum nibh, quis sodales sem aliquet at. Nunc et posuere lacus. Suspendisse ut ullamcorper tellus.</p>  
+            </div><br/>
+        <div><h3>KASIM</h3> <hr style="width: 60px;"></div><br/>
+        <div><h3>ARALIK</h3> <hr style="width: 70px;">
+            
+         YAZI YOK
+            </div><br/>
+        
+        </div>
+        
+        
+        </div>
+        
+        
+        
+        
+        
+        
+ <footer>
+    <center> 
+        <div id="iconlar">
+        <a id="instagram" href="http://Instagram.com/uumuterol" target=new><img src="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png" border="0" width="50px" height="50px"></a>
+       
+       <a id="linkedin" href="https://www.linkedin.com/in/umuterol/" target=new><img src="https://icons-for-free.com/iconfiles/png/512/linkedin+logo+media+professional+profile+social+icon-1320168598882107551.png" border="0" width="50px" height="50px"></a>
+       
+       <a id="twitter" href="https://twitter.com/Hp7Tron" target=new><img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c53e.png" border="0" width="50px" height="50px"></a>
+       </div>
+        
+        <h3 id="footeryazi"> Umut Erol 2019 | Tüm hakları saklıdır  </h3> 
+      </center>
+    
+    </footer> 
+        
+    </body>
+    
+</html>

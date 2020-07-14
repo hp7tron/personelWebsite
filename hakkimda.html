@@ -1,0 +1,310 @@
+<html>
+     <meta charset="utf-8">
+<title>
+    
+2.deneme 2.sayfa
+    </title>
+      <head>
+    <style type="text/css">
+       *{
+            margin: 0;
+            padding :0;
+            box-sizing: border-box;
+            font-family: "Avenir Next";
+        }
+        
+        body{
+            background-color: #f6f6f6;
+        }
+        
+        .navbar{
+            max-width: 80vw;
+            width: 100%;
+            position: absolute;
+            left: 10vw;
+            height: 100px;
+            background-color: #f6f6f6;
+        }
+        
+        .logo{
+            position: absolute;
+            left : 10px;
+            top : 50px;
+        }
+        
+        .menu{
+            width: 50vw;
+            height: 100px;
+            position: absolute;
+            right: 0;
+            display : flex; 
+            justify-content: space-around;
+        }
+    
+        .menu li{
+            list-style: none;
+        }
+        
+        .menu >li > a {
+            color: black;
+            position: absolute;
+            top : 50px;
+            text-decoration: none;
+            display: block;
+            font-size: 14px;
+        }
+    
+        
+        .acilirmenu1 {
+            display: none;
+            position: absolute;
+            top:70px;
+            z-index: 1;
+        }
+        
+    
+        .acilirmenu2 {
+            display: none;
+            position: absolute;
+            top:70px;
+            z-index: 1;
+            
+        }
+        .acilirmenu3 {
+            display: none;
+            position: absolute;
+            top:70px;
+            z-index: 1;
+ 
+        }
+        
+        .menu li:hover .acilirmenu1 {
+            display: block;
+        }
+        
+          .menu li:hover .acilirmenu2 {
+            display: block;
+        }
+        
+          .menu li:hover .acilirmenu3 {
+            display: block;
+        }
+
+        
+        .body{
+            position: absolute;
+            left: 10vw;
+            max-width: 80vw;
+            width: 100%;
+            top : 150px;
+        }
+        
+        
+       footer
+        {
+            position: absolute;
+            bottom:-500px;
+            left:10vw;
+            width: 80vw;
+            background: #dfe6e9;
+            border-radius: 20px 20px 0 0;
+        }
+        
+        
+        
+        #footeryazi{
+            color: white;
+            
+        }
+        
+        
+        
+        #baslik{
+            padding-left: 20px;
+            
+            
+        }
+        
+        .aylar {
+            
+            padding-left: 20px;
+            
+        }
+        
+        .dropdown {
+          position: absolute;
+          top:50px;
+        }
+        
+        .dropdown span{
+            font-size: 14px;
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          padding: 12px 16px;
+          z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+                .listeler {
+            list-style: none;
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+            
+        }
+        
+          </style>
+    </head>
+    <body>
+    
+        
+<div class="navbar" >
+    <div class="logo"> <img src="umut.png" width="80px" height="90px"  alt="Italian Trulli" > </div>
+    <ul class="menu">
+        
+        <li>
+            <a href="index.html">Anasayfa</a>
+        </li>  
+         <li>
+        <div class="dropdown">
+              <a class="listeler" href="yazilarim2019.html"> Yazılarım </a>
+              <div class="dropdown-content">
+             <ul >
+                  <li>
+                    <a class="listeler" href="yazilarim2019.html"> 2019</a>
+                    </li>
+                 <li>
+                    <a class="listeler" href="yazilarim2018.html"> 2018</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+        </li>
+        
+        <li>
+        <div class="dropdown">
+            <a class="listeler" href="foto%C4%9Fraflar2019.html">  Fotoğraflar</a> 
+              <div class="dropdown-content">
+               <ul >
+                  <li>
+                    <a class="listeler" href="foto%C4%9Fraflar2019.html"> 2019</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+        </li>
+        
+        <li>
+        <div class="dropdown">
+              <a class="listeler" href="muzikler.html"> Önerilerim</a>
+              <div class="dropdown-content">
+                <ul >
+                  <li>
+                    <a class="listeler" href="muzikler.html"> Müzik</a>
+                    </li>
+                     <li>
+                    <a class="listeler" href="kitaplar.html"> Kitap</a>
+                    </li>
+                    
+                  </ul>
+              </div>
+            </div>
+        </li>
+         
+        <li><a href="hakkimda.html">Hakkımda</a></li>  
+        <li><a href="iletisim.html">İletişim</a></li>  
+         <li>
+            <a href="http://192.168.64.2/phpfolder/PROJE/login.php">Kayıt Ol</a>
+        </li>  
+    </ul>
+    
+        
+        
+    </div>
+        
+        
+
+           <div class="body">
+        <center>  
+            <h1> Hakkımda</h1>   
+            <br>
+        <p>  Merhaba ben Umut! 20 yaşındayım Bilişim Sistemleri Mühendisliği        3.Sınıf Öğrencisiyim
+            Henüz yolun başında olan bir yazılımcı adayıyım kendi merakım ve üniversitemizin verdiği projelerle kendimi geliştirmeye çalışıyorum. Hobilerim arasında araştırma yapmak, müzik ve gastronmiyle uğraşmak var. Kendimi Mobil Uygulama Geliştirme alanında geliştirmek istiyorum ve o yönde çalışmalar yapıyorum. 
+                    
+            </p>
+            <br>
+            <h2>   Özgeçmişim    </h2> 
+            <br>
+                <h4> Kişisel Bilgiler</h4> 
+                <p>  Ad/Soyad Umut Erol<br/>
+                         Doğum Tarihi 17.05.1999<br/>
+                         E-Mail umuterol5875@gmail.com<br/>
+                </p>  <br/>
+                        <h4> Eğitim ve Öğretim   </h4>  <br/>
+                         <p>
+                             Kurum Kocaeli üniversitesi<br/>
+                             Bölüm Bilişim Sistemleri Mühendisliği<br/>
+                             Tarihler 2017-2021<br/>
+                                                         
+                                         </p><br/>
+                            <h4> Beceri ve Yetenekler </h4> <br/> 
+                         <p>       
+                              Dil(ler) English(upper intermediate), Türkçe(Anadili)<br/>
+                              Sosyal Beceri Takım çalışması, zaman yönetimi ve uyum sağlama<br/>
+                              Organizasyon Becerileri 3 yıl boyunca süren bir kulüp yönetimi, <br/> AIESEC Derneği çatısı altında takım liderliği pozisyonunda 4 ay görev yapma.<br/>
+                             
+                        </p>
+            
+                        <br>
+                        <h4>Staj Tecrübesi </h4><br/>
+                <p>     Firma adı : GoLive Consulting<br/> 
+Firma faaliyet alanı: Bilişim danışmanlık hizmetleri <br/> 
+                    *SAP ERP sistemlerinin çalışma mantığını kavrama. <br/> 
+                    *Java ile Android Programlama.<br/> 
+                 **Temel XML bileşenleri kullanabilme.<br/> 
+                  **Shared References ve JSON veri çekebilme kavramları üzerine yapılan uygulamalar.<br/> 
+</p><br/> 
+            <h4>Bilgisayar Becerileri ve Yetenekleri</h4>  <br/>   
+                <p>
+                <b>İşletim Sistemi;  </b><br/> 
+                MacOS, Windows<br/> 
+                    <b>Yazılım Dilleri;</b><br/> 
+               
+               Orta düzeyde: Java,Matlab <br/> 
+                    Geliştirmekte olduklarım: Swift <br/> 
+                   <b> Uygulamalar; </b> <br/> 
+                Keynote,MS PowerPoint, Prezi<br/> 
+
+                
+                </p><br/> 
+            
+            
+            </center>
+            
+        </div>
+
+         <footer>
+    <center> 
+        <div id="iconlar">
+        <a id="instagram" href="http://Instagram.com/uumuterol" target=new><img src="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png" border="0" width="50px" height="50px"></a>
+       
+       <a id="linkedin" href="https://www.linkedin.com/in/umuterol/" target=new><img src="https://icons-for-free.com/iconfiles/png/512/linkedin+logo+media+professional+profile+social+icon-1320168598882107551.png" border="0" width="50px" height="50px"></a>
+       
+       <a id="twitter" href="https://twitter.com/Hp7Tron" target=new><img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c53e.png" border="0" width="50px" height="50px"></a>
+       </div>
+        
+        <h3 id="footeryazi"> Umut Erol 2019 | Tüm hakları saklıdır  </h3> 
+      </center>
+    
+    </footer> 
+    </body>
+    
+</html>
