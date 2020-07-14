@@ -1,0 +1,339 @@
+<html>
+     <meta charset="utf-8">
+<title>
+    
+UMUT EROL FOTOĞRAFLAR
+    </title>
+      <head>
+    <style type="text/css">
+       *{
+            margin: 0;
+            padding :0;
+            box-sizing: border-box;
+            font-family: "Avenir Next";
+        }
+        
+        body{
+            background-color: #f6f6f6;
+        }
+        
+        .navbar{
+            max-width: 80vw;
+            width: 100%;
+            position: absolute;
+            left: 10vw;
+            height: 100px;
+            background-color: #f6f6f6;
+        }
+        
+        .logo{
+            position: absolute;
+            left : 10px;
+            top : 50px;
+        }
+        
+        .menu{
+            width: 50vw;
+            height: 100px;
+            position: absolute;
+            right: 0;
+            display : flex; 
+            justify-content: space-around;
+        }
+    
+        .menu li{
+            list-style: none;
+        }
+        
+        .menu >li > a {
+            color: black;
+            position: absolute;
+            top : 50px;
+            text-decoration: none;
+            display: block;
+            font-size: 14px;
+        }
+    
+        
+        .acilirmenu1 {
+            display: none;
+            position: absolute;
+            top:70px;
+            z-index: 1;
+        }
+        
+    
+        .acilirmenu2 {
+            display: none;
+            position: absolute;
+            top:70px;
+            z-index: 1;
+            
+        }
+        .acilirmenu3 {
+            display: none;
+            position: absolute;
+            top:70px;
+            z-index: 1;
+ 
+        }
+        
+        .menu li:hover .acilirmenu1 {
+            display: block;
+        }
+        
+          .menu li:hover .acilirmenu2 {
+            display: block;
+        }
+        
+          .menu li:hover .acilirmenu3 {
+            display: block;
+        }
+
+        
+        .body{
+            position: absolute;
+            left: 10vw;
+            max-width: 80vw;
+            width: 100%;
+            top : 150px;
+        }
+        
+        
+       footer
+        {
+            position: absolute;
+            bottom:-100;
+            left:10vw;
+            width: 80vw;
+            background: #dfe6e9;
+            border-radius: 20px 20px 0 0;
+        }
+        
+        
+        
+        #footeryazi{
+            color: white;
+            
+        }
+        
+        
+        
+        #baslik{
+            padding-left: 20px;
+            
+            
+        }
+        
+        .aylar {
+            
+            padding-left: 20px;
+            
+        }
+        
+        .dropdown {
+          position: absolute;
+          top:50px;
+        }
+        
+        .dropdown span{
+            font-size: 14px;
+        }
+
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          padding: 12px 16px;
+          z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        
+        .galleries{
+            position: absolute;
+            top: 100px;
+            max-width: 80vw;
+            left: 10vw;
+        }
+        
+        div.gallery {
+          margin: 15px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 200px;
+        }
+
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+
+        div.gallery img {
+          width: 200px;
+            height: 200px;
+        }
+
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+        
+       
+                .listeler {
+            list-style: none;
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+            
+        }
+        
+        
+          </style>
+    </head>
+    <body>
+    
+     
+      <div class="navbar" >
+    <div class="logo"> <img src="umut.png" width="80px" height="90px"  alt="Italian Trulli" > </div>
+    <ul class="menu">
+        
+        <li>
+            <a href="index.html">Anasayfa</a>
+        </li>  
+         <li>
+        <div class="dropdown">
+              <a class="listeler" href="yazilarim2019.html"> Yazılarım </a>
+              <div class="dropdown-content">
+             <ul >
+                  <li>
+                    <a class="listeler" href="yazilarim2019.html"> 2019</a>
+                    </li>
+                 <li>
+                    <a class="listeler" href="yazilarim2018.html"> 2018</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+        </li>
+        
+        <li>
+        <div class="dropdown">
+            <a class="listeler" href="foto%C4%9Fraflar2019.html">  Fotoğraflar</a> 
+              <div class="dropdown-content">
+               <ul >
+                  <li>
+                    <a class="listeler" href="foto%C4%9Fraflar2019.html"> 2019</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+        </li>
+        
+        <li>
+        <div class="dropdown">
+              <a class="listeler" href="muzikler.html"> Önerilerim</a>
+              <div class="dropdown-content">
+                <ul >
+                  <li>
+                    <a class="listeler" href="muzikler.html"> Müzik</a>
+                    </li>
+                     <li>
+                    <a class="listeler" href="kitaplar.html"> Kitap</a>
+                    </li>
+                    
+                  </ul>
+              </div>
+            </div>
+        </li>
+         
+        <li><a href="hakkimda.html">Hakkımda</a></li>  
+        <li><a href="iletisim.html">İletişim</a></li>     
+        <li>
+            <a href="http://192.168.64.2/phpfolder/PROJE/login.php">Kayıt Ol</a>
+        </li>  
+    </ul>
+    
+        
+        
+    </div>
+        
+        <div class="galleries">
+        <h3 style=" margin-left :15px; margin-top : 20px;"> FOTOĞRAFLARIM </h3>
+        <div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="1.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Ukrayna Lviv'de bir Düğün</div>
+</div>
+ 
+        <div class="gallery">
+          <a target="_blank" href="img_forest.jpg">
+            <img src="2.jpg" alt="Forest" width="600" height="400">
+          </a>
+          <div class="desc">Düğünün yapıldığı kilise</div>
+</div>
+
+           <div class="gallery">
+          <a target="_blank" href="img_mountains.jpg">
+            <img src="4.jpg" alt="Mountains" width="600" height="400" >
+          </a>
+          <div class="desc">Ukraynalı bir öğrencim ile </div>
+</div>
+
+        <div class="gallery">
+          <a target="_blank" href="img_mountains.jpg">
+            <img src="deneme.jpeg" alt="Mountains" width="600" height="400" >
+          </a>
+          <div class="desc"> En değerlim ile </div>
+</div>
+        
+        <div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="5.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Maskot Umut</div>
+            
+            
+</div>
+            
+            <div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="3.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Saat Kulesi</div>
+    
+  
+            
+        </div>
+        
+                    <div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="ailem.jpeg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Canım Ailem</div>
+</div>
+        </div>
+        
+        
+        <footer>
+    <center> 
+        <div id="iconlar">
+        <a id="instagram" href="http://Instagram.com/uumuterol" target=new><img src="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png" border="0" width="50px" height="50px"></a>
+       
+       <a id="linkedin" href="https://www.linkedin.com/in/umuterol/" target=new><img src="https://icons-for-free.com/iconfiles/png/512/linkedin+logo+media+professional+profile+social+icon-1320168598882107551.png" border="0" width="50px" height="50px"></a>
+       
+       <a id="twitter" href="https://twitter.com/Hp7Tron" target=new><img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c53e.png" border="0" width="50px" height="50px"></a>
+       </div>
+        
+        <h3 id="footeryazi"> Umut Erol 2019 | Tüm hakları saklıdır  </h3> 
+      </center>
+    
+    </footer> 
+    
+    </body>
+    
+</html>
